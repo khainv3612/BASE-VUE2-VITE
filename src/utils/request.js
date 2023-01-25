@@ -5,7 +5,7 @@ import { getToken } from '@/utils/auth'
 import Cookies from 'js-cookie'
 
 const service = axios.create({
-  baseURL: process.env.VUE_APP_BASE_API
+  baseURL: import.meta.env.VITE_APP_BASE_API
 })
 
 service.interceptors.request.use(

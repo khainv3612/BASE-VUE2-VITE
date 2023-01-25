@@ -406,3 +406,7 @@ export function tinymceUploadHandler(blobInfo, success, failure, progress) {
 
   xhr.send(formData)
 }
+
+export function getImg(path) {
+  return new URL(`../assets/images/${path}`, import.meta.url)
+}

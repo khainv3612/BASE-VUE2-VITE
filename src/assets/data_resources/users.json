@@ -1,0 +1,563 @@
+[
+  {
+    "_id": {
+      "$oid": "635b9e10273c0fa05f7cbb72"
+    },
+    "username": "vinh261100",
+    "password": "VmtaYVUxTnRWbkpOVmxaVVYwYzRPUT09",
+    "phone": "0966592831",
+    "full_name": "Lê Vinh",
+    "address": "26",
+    "email": "vinh26111200@gmail.com",
+    "business": "",
+    "country": "EE",
+    "jurisdiction": "MGA",
+    "affiliate_id": [],
+    "tags": [],
+    "type": 1,
+    "isActive": true,
+    "referralId": "",
+    "balance": 100000320.21999998,
+    "create_at": {
+      "$numberLong": "1666948611206"
+    },
+    "__v": 0,
+    "is_active": true,
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1667654561035"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6360d0de99a54f6e4d832561"
+    },
+    "username": "test",
+    "password": "VmtaYVUxTnRWbkpOVmxaVVYwYzRPUT09",
+    "phone": "0945111522258",
+    "full_name": "test ",
+    "email": "phunghiep17042000@gmail.com",
+    "business": "jsjs",
+    "country": "BY",
+    "jurisdiction": "MGA",
+    "affiliate_id": [],
+    "tags": [],
+    "type": 1,
+    "isActive": true,
+    "referralId": "",
+    "balance": 0,
+    "create_at": {
+      "$numberLong": "1667289237478"
+    },
+    "is_active": true,
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1667289310304"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1667289318015"
+      }
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6360dd346b52dd1db7263be9"
+    },
+    "username": "hieptest",
+    "password": "VmtaYVUxTnRWbkpOVmxaVVYwYzRPUT09",
+    "phone": "0963258444",
+    "full_name": "test",
+    "email": "hiep001@1655mail.com",
+    "business": "1234455",
+    "country": "AZ",
+    "jurisdiction": "MGA",
+    "affiliate_id": [],
+    "tags": [],
+    "type": 1,
+    "isActive": true,
+    "referralId": "",
+    "balance": 931496.335990001,
+    "create_at": {
+      "$numberLong": "1667290150409"
+    },
+    "is_active": true,
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1667292468714"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1667797159518"
+      }
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "636383f89db0cb41d563a051"
+    },
+    "username": "jessing",
+    "password": "VmxaamVGSXlSbGhXYkdocVVqSm9jMVpxUW5kTmJIQlhWV3R3VGxGVU1Eaz0=",
+    "phone": "+35699443135",
+    "full_name": "jess inglott",
+    "email": "jessinglott@gmail.com",
+    "business": "24/10/1983",
+    "country": "MT",
+    "jurisdiction": "MGA",
+    "affiliate_id": [],
+    "tags": [],
+    "type": 1,
+    "isActive": true,
+    "referralId": "",
+    "balance": 0,
+    "create_at": {
+      "$numberLong": "1667381158919"
+    },
+    "is_active": true,
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1667466232131"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1667466232131"
+      }
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6365bc33baa62e9f2297a6e5"
+    },
+    "username": "hieptest1",
+    "password": "VmtaYVUxTnRWbkpOVmxaVVYwYzRPUT09",
+    "phone": "0912345678",
+    "email": "agn46028@nezid.com",
+    "business": "Player",
+    "country": "AD",
+    "jurisdiction": "MGA",
+    "affiliate_id": [],
+    "tags": [],
+    "type": 1,
+    "isActive": true,
+    "referralId": "123456",
+    "balance": 0,
+    "create_at": {
+      "$numberLong": "1667587238952"
+    },
+    "is_active": false,
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1667611699118"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1667611699118"
+      }
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6365f4c3baa62e9f2297a762"
+    },
+    "username": "hieptest133",
+    "password": "VmtaYVUxTnRWbkpOVmxaVVYwYzRPUT09",
+    "phone": "0912345670",
+    "email": "agn460628@nezid.com",
+    "business": "Player",
+    "country": "AS",
+    "jurisdiction": "MGA",
+    "affiliate_id": [],
+    "tags": [],
+    "type": 1,
+    "isActive": true,
+    "referralId": "123456",
+    "balance": 0,
+    "create_at": {
+      "$numberLong": "1667587238952"
+    },
+    "is_active": false,
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1667626179043"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1667626179043"
+      }
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "63688f9a3a3210b0591dae1d"
+    },
+    "username": "vinh2000",
+    "password": "VmtaYVUxTnRWbkpOVmxaVVYwYzRPUT09",
+    "phone": "0966592830",
+    "email": "vinh261100@gmail.com",
+    "business": "Player",
+    "country": "SE",
+    "jurisdiction": "MGA",
+    "affiliate_id": [],
+    "tags": [],
+    "type": 1,
+    "isActive": true,
+    "referralId": "",
+    "balance": 0.5066,
+    "create_at": {
+      "$numberLong": "1667792939304"
+    },
+    "is_active": true,
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1667796890651"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1667797245140"
+      }
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6368b5da3a3210b0591db2dd"
+    },
+    "username": "abcd",
+    "password": "VmtaYVUxTnRWbkpOVmxaVVYwYzRPUT09",
+    "phone": "0963258741",
+    "email": "cdmxc4944@1655mail.com",
+    "business": "Player",
+    "country": "AX",
+    "jurisdiction": "MGA",
+    "affiliate_id": [],
+    "tags": [],
+    "type": 1,
+    "isActive": true,
+    "referralId": "111",
+    "balance": 0,
+    "create_at": {
+      "$numberLong": "1667792939304"
+    },
+    "is_active": true,
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1667806682765"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1667806703611"
+      }
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6369b15863c632c43afceeb2"
+    },
+    "username": "hieptest121",
+    "password": "VmtaYVUxTnRWbkpOVmxaVVYwYzRPUT09",
+    "phone": "0932563666",
+    "email": "cdmuw6107@1655mail.com",
+    "business": "Player",
+    "country": "BD",
+    "jurisdiction": "MGA",
+    "affiliate_id": [],
+    "tags": [],
+    "type": 1,
+    "isActive": true,
+    "referralId": "111",
+    "balance": 0,
+    "create_at": {
+      "$numberLong": "1667815407847"
+    },
+    "is_active": false,
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1667871064784"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1667871064784"
+      }
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6369b19963c632c43afceec8"
+    },
+    "username": "hieptest131",
+    "password": "VmtaYVUxTnRWbkpOVmxaVVYwYzRPUT09",
+    "phone": "0925863147",
+    "email": "vembt6881@1655mail.com",
+    "business": "Player",
+    "country": "AX",
+    "jurisdiction": "MGA",
+    "affiliate_id": [],
+    "tags": [],
+    "type": 1,
+    "isActive": true,
+    "referralId": "",
+    "balance": 0,
+    "create_at": {
+      "$numberLong": "1667815407847"
+    },
+    "is_active": false,
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1667871129379"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1667871129379"
+      }
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6369c3983609b65764f62861"
+    },
+    "username": "hieptest1111",
+    "password": "VmtaYVUxTnRWbkpOVmxaVVYwYzRPUT09",
+    "phone": "0963258747",
+    "email": "test08@1655mail.com",
+    "business": "Player",
+    "country": "BD",
+    "jurisdiction": "MGA",
+    "affiliate_id": [],
+    "tags": [],
+    "type": 1,
+    "isActive": true,
+    "referralId": "212121",
+    "balance": 0,
+    "create_at": {
+      "$numberLong": "1667875369982"
+    },
+    "is_active": false,
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1667875736592"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1667875736592"
+      }
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6369c3de3609b65764f6287f"
+    },
+    "username": "hieptest111",
+    "password": "VmtaYVUxTnRWbkpOVmxaVVYwYzRPUT09",
+    "phone": "0963258745",
+    "email": "lklnq9011@1655mail.com",
+    "business": "Player",
+    "country": "AZ",
+    "jurisdiction": "MGA",
+    "affiliate_id": [],
+    "tags": [],
+    "type": 1,
+    "isActive": true,
+    "referralId": "212121",
+    "balance": 0,
+    "create_at": {
+      "$numberLong": "1667875369982"
+    },
+    "is_active": false,
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1667875806821"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1667875806821"
+      }
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6369feb874099eecd827c2f7"
+    },
+    "username": "vinhtest",
+    "password": "VmtaYVUxTnRWbkpOVmxaVVYwYzRPUT09",
+    "phone": "0987654333",
+    "email": "vinhlqhe140293@fpt.edu.comvn",
+    "business": "Player",
+    "country": "AO",
+    "jurisdiction": "MGA",
+    "affiliate_id": [],
+    "tags": [],
+    "type": 1,
+    "isActive": true,
+    "referralId": "",
+    "balance": 0,
+    "create_at": {
+      "$numberLong": "1667890772285"
+    },
+    "is_active": false,
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1667890872097"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1667890872097"
+      }
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "636b025cd3debd8f12c9cf68"
+    },
+    "username": "hieptest1234",
+    "password": "VmtaYVUxTnRWbkpOVmxaVVYwYzRPUT09",
+    "phone": "0963258789",
+    "email": "kwmby9333@1655mail.com",
+    "business": "Player",
+    "country": "AL",
+    "jurisdiction": "MGA",
+    "affiliate_id": [],
+    "tags": [],
+    "type": 1,
+    "isActive": true,
+    "referralId": "212121",
+    "balance": 0,
+    "create_at": {
+      "$numberLong": "1667893955732"
+    },
+    "is_active": true,
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1667957340917"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1667957413214"
+      }
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "636b1367d3debd8f12c9d297"
+    },
+    "username": "testpoint",
+    "password": "VmtaYVUxTnRWbkpPVlZaWFZrVndVRnBYTVc5T1JuQkZVMnhrYkZWVU1Eaz0=",
+    "phone": "0344772778",
+    "email": "hungpv151098@gmail.com",
+    "business": "Player",
+    "country": "GB",
+    "jurisdiction": "MGA",
+    "affiliate_id": [],
+    "tags": [],
+    "type": 1,
+    "isActive": true,
+    "referralId": "",
+    "balance": 0,
+    "create_at": {
+      "$numberLong": "1667893955732"
+    },
+    "is_active": false,
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1667961703621"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1667961703621"
+      }
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "636b1eb4d3debd8f12c9d417"
+    },
+    "username": "testpoin",
+    "password": "VmtaYVUxTnRWbkpPVlZaWFZrVndVRnBYTVc5T1JuQkZVMnhrYkZWVU1Eaz0=",
+    "phone": "0886037626",
+    "email": "hungpv15101998@gmail.com",
+    "business": "Player",
+    "country": "GB",
+    "jurisdiction": "MGA",
+    "affiliate_id": [],
+    "tags": [],
+    "type": 1,
+    "isActive": true,
+    "referralId": "",
+    "balance": 0,
+    "create_at": {
+      "$numberLong": "1667893955732"
+    },
+    "is_active": false,
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1667964596371"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1667964596371"
+      }
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "636c580fd3debd8f12c9d910"
+    },
+    "username": "hieptest333",
+    "password": "VmtaYVUxTnRWbkpOVmxaVVYwYzRPUT09",
+    "phone": "09325636663",
+    "email": "xqllb2677@1655mail.com",
+    "business": "Player",
+    "country": "Select Country",
+    "jurisdiction": "MGA",
+    "affiliate_id": [],
+    "tags": [],
+    "type": 1,
+    "isActive": true,
+    "referralId": "111",
+    "balance": 0,
+    "create_at": {
+      "$numberLong": "1667893955732"
+    },
+    "is_active": true,
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1668044815032"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1668044843050"
+      }
+    },
+    "__v": 0
+  }
+]

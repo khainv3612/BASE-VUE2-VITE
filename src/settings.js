@@ -1,5 +1,5 @@
-module.exports = {
-  title: 'Chiliz Meta Zone Admin',
+export default {
+  title: 'Admin - Vue2 - Vite2',
   tagsView: true,
   fixedHeader: false,
   sidebarLogo: true,

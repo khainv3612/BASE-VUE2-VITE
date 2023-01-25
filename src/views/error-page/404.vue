@@ -15,7 +15,7 @@
           </li>
         </ul>
         <div class="mt-6">
-          <el-button type="primary" icon="el-icon-arrow-left"  @click="back">
+          <el-button type="primary" icon="el-icon-arrow-left" class="btn-primary" @click="back">
             về trang chủ
           </el-button>
         </div>

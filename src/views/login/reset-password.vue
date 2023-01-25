@@ -77,6 +77,7 @@
                 <el-button
                   :loading="loading"
                   type="primary"
+                  class="btn-primary"
                   style="width:100%;margin-bottom:30px;margin-top:10px;"
                   @click.native.prevent="handleReset"
                 >

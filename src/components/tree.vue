@@ -1,17 +1,8 @@
 <template>
   <div>
-    <Vue2OrgTree
-      label-class-name="orglabel"
-      name="test"
-      :data="dataProp"
-      :pan="pan"
-      :zoom="zoom"
-      :horizontal="horizontal"
-      :collapsable="collapsable"
-      :render-content="renderContent"
-      @on-expand="onExpand"
-      @on-node-click="onNodeClick"
-    />
+    <Vue2OrgTree label-class-name="orglabel" name="test" :data="dataProp" :pan="pan" :zoom="zoom"
+      :horizontal="horizontal" :collapsable="collapsable" :render-content="renderContent" @on-expand="onExpand"
+      @on-node-click="onNodeClick" />
   </div>
 </template>
 
@@ -21,7 +12,7 @@ export default {
   props: ['dataProp', 'isShow'],
   data() {
     return {
-      horizontal: true,
+      horizontal: false,
       collapsable: true,
       expandAll: true,
       labelClassName: 'bg-white',
@@ -54,19 +45,19 @@ export default {
   },
   methods: {
     renderContent(h, data) {
-      return (
-        <div class='rich-media-node'>
+      const temp = `<div class='rich-media-node'>
           <div class='row_info'>
             <span class='title'>Name:</span>
-            <span class='value'>{ data.user ? data.user.name : data.name }</span>
+            <span class='value'>${data.user ? data.user.name : data.name}</span>
           </div>
           <div class='row_info'>
             <span class='title'>Email:</span>
-            <span class='value'>{ data.user ? data.user.email : '' }</span>
+            <span class='value'>${data.user ? data.user.email : ''}</span>
           </div>
-
-        </div>
-      )
+        </div>`
+      return h('div', {
+        domProps: { innerHTML: temp }
+      })
     },
     onClick(type, node) {
       this.$message.info('点击事件')
@@ -120,7 +111,7 @@ export default {
     },
     collapse(list) {
       const _this = this
-      list.forEach(function(child) {
+      list.forEach(function (child) {
         if (child.expand) {
           child.expand = false
         }
@@ -133,7 +124,7 @@ export default {
     toggleExpand(data, val) {
       const _this = this
       if (Array.isArray(data)) {
-        data.forEach(function(item) {
+        data.forEach(function (item) {
           _this.$set(item, 'expand', val)
           if (item.children) {
             _this.toggleExpand(item.children, val)

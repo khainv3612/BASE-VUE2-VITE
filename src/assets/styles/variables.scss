@@ -1,0 +1,144 @@
+// base color
+$color-green-functional: #0ed346;
+$color-red-primary: #CA0124;
+$color-btn-disabled: #75031a;
+$blue:#324157;
+$light-blue:#3A71A8;
+$red:#C03639;
+$pink: #E65D6E;
+$green: #30B08F;
+$tiffany: #4AB7BD;
+$yellow:#FEC171;
+$panGreen: #30B08F;
+
+$color-white: #fff;
+$color-black: #000;
+$color-orange: #FFC85E;
+$color-dark-orange: #FFC85E;
+$color-orange-1: #FAAD14;
+$color-orange-2: #FF9900;
+$color-orange-3: #FFDE9C;
+$color-red-1: #FF4D4F;
+$color-red-2: #E4282A;
+$color-red-3: #FFB4B4;
+$color-white-1: #00C508;
+$color-white-2: #05CA19;
+$color-white-3: #05CA19;
+$color-blue-primary: #002337;
+$color-blue-1: #1890FF;
+$color-blue-2: #006CCF;
+$color-blue-3: #ABD7FF;
+$color-text-4: #828B92;
+$color-text-5: #CDD1D5;
+$color-red : #FF4A4A;
+$color-btn-hover: #FF9B25;
+$color-text-6: #E8E8F2;
+$color-submenu-hover: #850000;
+
+$color-dark-functional-500: #465773;
+$color-btn: #BE0D0D;
+
+$color-border : #DCDFE6;
+$color-bg-token-name : #F5F7FA;
+$color-border : #DCDFE6;
+
+$menuText:#bfcbd9;
+$menuActiveText:#FFC85E;
+$subMenuActiveText:#f4f4f5;
+
+//color-btn
+$color-btn: #DC5E4F;
+$color-btn-white: #FCFCFC;
+$color-text: #A0A3BD;
+$color-text-disable: #7B8799;
+$color-placeholder: #555555;
+$color-text-4: #828B92;
+$color-text-5: #CDD1D5;
+$color-text-6: #E8E8F2;
+
+$menuBg:#002337;
+
+$subMenuBg:#002337;
+
+$sideBarWidth: 250px;
+:export {
+  menuText: $color-white;
+  menuActiveText: $color-dark-orange;
+  subMenuActiveText: $color-dark-orange;
+  menuBg: $color-blue-primary;
+  menuHover:$color-dark-orange;
+  subMenuBg: $color-dark-orange;
+  subMenuHover: $color-dark-orange;
+  sideBarWidth: $color-blue-primary;
+}
+
+// color
+$color-black: rgb(15, 22, 31);
+
+// color-orange
+$color-orange-1: #f4a03e;
+$color-orange-2: #ff9300;
+$color-orange-3: #fff3cc;
+//color-red
+$color-red-1: #d8414a;
+$color-red-2: #ff4a4a;
+$color-red-3: #ffdce4;
+$color-red-4: #f56c6d;
+//color-green:
+$color-green-2: #2ec561;
+$color-green-1: #6ecfc4;
+$color-green-3: #ddf7e0;
+//color-text
+$color-text-5: #183c29;
+$color-text-4: #011627;
+$color-text-3: #535353;
+$color-text-2: #828b92;
+$color-text-1: #cdd1d4;
+//color-grey
+$color-gray: #f9f9f9;
+$color-white: #ffffff;
+$color-text-2: #636363;
+$color-border-box: #8f8e8e;
+
+
+//padding
+$padding-layout_auth: 0px;
+$padding-layout_default: 0px;
+$padding-header-common: 0px 20px;
+$padding-input-inner: 0px;
+$padding-form: 30px;
+$padding-form-create-notification-to-top: 144px;
+
+//height
+$min-height-sidebar-item: 48px;
+$min-height-copyright: 45px;
+$height-header-auth: 50px;
+$height-footer-auth: 50px;
+$height-header-default: 57px;
+$height-footer-default: 50px;
+$height-input: 40px;
+$min-height-auth-layout: calc(100vh - $height-header-auth - $height-footer-auth - 2 * $padding-layout_auth);
+$min-height-default-layout: calc(100vh - $height-header-default - 2 * $padding-layout_default);
+$height-from-header-to-container-personnel: 170px;
+
+$height-title: 48px + 64px + 32px;
+$height-title-filter: 68px + 50px;
+$height-navbar-milkdown: 56px;
+//$height-editor-notification: calc(100vh - $padding-form-create-notification-to-top);
+$height-editor-notification: calc(100vh);
+$height-lst-token-div: calc(60vh);
+
+//width
+$max-width: 1280px;
+$container-sidebar: 240px;
+$sidebar-setting: 160px;
+$collapse-sidebar: 48px;
+$collapse-sidebar-hidden: 0;
+
+//margin
+$margin-input-field: 27px;
+
+//bg
+$bg-main: rgb(243, 245, 246);
+
+

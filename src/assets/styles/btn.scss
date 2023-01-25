@@ -1,4 +1,4 @@
-@import './variables.scss';
+@import 'variables';
 
 @mixin colorBtn($color) {
   background: $color;
@@ -96,26 +96,4 @@
   padding: 10px 15px;
   font-size: 14px;
   border-radius: 4px;
-}
-
-.el-button--primary {
-  color: #fff;
-  background-color: $color-red-primary;
-  border-color: $color-red-primary;
-}
-
-.el-button--primary:hover {
-  color: $color-white;
-  background: $color-red-primary;
-  border: 1px solid $color-red-primary;
-  box-shadow: 0px 0px 30px rgba(202, 1, 36, 0.7);
-}
-
-.el-button--primary.is-disabled, .el-button--primary.is-disabled:hover, .el-button--primary.is-disabled:focus, .el-button--primary.is-disabled:active {
-  color: $color-white;
-  cursor: not-allowed;
-  background-image: none;
-  background-color: $color-btn-disabled;
-  border-color: $color-btn-disabled;
-  opacity: 0.9;
 }

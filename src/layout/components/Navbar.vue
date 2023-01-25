@@ -13,7 +13,7 @@
       <el-dropdown class="avatar-container right-menu-item hover-effect" trigger="click">
         <div class="avatar-wrapper">
           <div class="d-flex items-center">
-            <el-image class="avatar-user" :src="require('@/assets/images/logo2.png')">
+            <el-image class="avatar-user" :src="require('@/assets/images/logo.svg')">
               <div slot="error" class="image-slot">
                 <i class="el-icon-picture-outline" />
               </div>
@@ -47,11 +47,18 @@
 import { mapGetters } from 'vuex'
 import Breadcrumb from '@/components/Breadcrumb'
 import Hamburger from '@/components/Hamburger'
+import { getImg } from '@/utils'
+import { removeToken } from '@/utils/auth'
 
 export default {
   components: {
     Breadcrumb,
     Hamburger
+  },
+  data() {
+    return {
+      logo: getImg('logo.svg')
+    }
   },
   computed: {
     ...mapGetters([
@@ -66,8 +73,10 @@ export default {
       this.$store.dispatch('app/toggleSideBar')
     },
     async logout() {
-      await this.$store.dispatch('user/logout')
-      this.$router.push(`/login`)
+      await this.$store.commit('auth/SET_TOKEN', '')
+      await this.$store.commit('auth/SET_ROLES', [])
+      removeToken()
+      await this.$router.push('/login')
     },
     changePassword() {
       this.$router.push('/change-password')
@@ -125,6 +134,7 @@ export default {
       font-size: 14px;
       color: #11284D !important;
       vertical-align: text-bottom;
+
       .avatar-user {
         width: 35px;
         height: 35px;
@@ -136,9 +146,11 @@ export default {
         align-items: center;
         justify-content: center;
       }
+
       &.hover-effect {
         cursor: pointer;
         transition: background .3s;
+
         &:hover {
           background: transparent;
         }
@@ -149,6 +161,7 @@ export default {
       margin-right: 30px;
       display: flex;
       align-items: center;
+
       .avatar-wrapper {
         position: relative;
 

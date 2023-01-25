@@ -182,7 +182,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import "src/styles/variables";
+@import "src/assets/styles/variables";
 
 .chart-container {
   display: flex;
@@ -229,7 +229,7 @@ export default {
     border: 1px solid $color-red-primary;
     border-radius: 4px;
     //font-family: 'Montserrat';
-    width: 180px;
+    width: 230px;
     min-width: 170px;
     word-break: break-word;
     display: grid;

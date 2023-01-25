@@ -8,7 +8,7 @@
       </h3>
     </template>
     <template v-slot:action>
-      <el-button type="primary" icon="el-icon-plus" @click="handleCreate">
+      <el-button type="primary" icon="el-icon-plus" class="btn-primary" @click="handleCreate">
         {{ $t('user.add') }}
       </el-button>
     </template>

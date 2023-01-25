@@ -1,5 +1,5 @@
 <template>
-  <div class="sidebar-logo-container " :class="{'collapse':collapse}">
+  <div class="sidebar-logo-container " :class="{'collapse_menu':collapse}">
     <transition name="sidebarLogoFade">
       <router-link v-if="collapse" key="collapse" class="sidebar-logo-link flex justify-center text-center items-center" to="/">
         <img v-if="logo" :src="logo" class="sidebar-logo">
@@ -14,6 +14,8 @@
 </template>
 
 <script>
+import { getImg } from '@/utils'
+
 export default {
   name: 'SidebarLogo',
   props: {
@@ -24,8 +26,8 @@ export default {
   },
   data() {
     return {
-      title: 'Chiliz Meta Zone',
-      logo: require('@/assets/images/logo2.png')
+      title: 'Coinscasino',
+      logo: getImg('logo.svg')
     }
   }
 }
@@ -80,7 +82,7 @@ export default {
     }
   }
 
-  &.collapse {
+  &.collapse_menu {
     .sidebar-logo {
       margin-right: 0px;
     }

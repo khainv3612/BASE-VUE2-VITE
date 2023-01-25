@@ -1,0 +1,14 @@
+.no_available {
+  h1 {
+    word-break: break-word;
+    @apply not-italic text-5xl font-normal absolute m-auto w-fit left-0 right-0 uppercase top-20 text-white text-center
+  }
+
+  //img {
+  //  @apply w-full h-full
+  //}
+
+  background-image: url("block.png");
+  background-size: 100% 100%;
+  @apply w-screen h-screen relative bg-no-repeat
+}

@@ -1,4 +1,4 @@
-<script>
+<script lang="jsx">
 export default {
   name: 'MenuItem',
   functional: true,
@@ -27,9 +27,9 @@ export default {
     if (title) {
       if (badge) {
         const numBadge = badge < 100 ? badge : '99+'
-        vnodes.push(<span slot='title'>{(title)} <span class='badge'>{{ numBadge }}</span></span>)
+        vnodes.push(<span slot='title'>{(title)} <span class='badge menu_title_sidebar'>{{ numBadge }}</span></span>)
       } else {
-        vnodes.push(<span slot='title'>{(title)}</span>)
+        vnodes.push(<span slot='title' class='menu_title_sidebar'>{(title)}</span>)
       }
     }
 

@@ -49,7 +49,7 @@
         </el-button>
         <el-button
           :disabled="disabledBtn"
-          class="w-6/12"
+          class="w-6/12 btn-primary"
           type="primary"
           @click="updateValue"
         >

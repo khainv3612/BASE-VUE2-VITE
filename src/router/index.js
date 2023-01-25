@@ -59,7 +59,7 @@ export const asyncRoutes = [
   {
     path: '/',
     component: Layout,
-    name: 'users',
+    name: 'Home',
     redirect: '/users'
   },
   {

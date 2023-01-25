@@ -1,6 +1,6 @@
 <template>
   <div :class="{'has-logo':showLogo}">
-    <logo v-if="showLogo" :collapse="isCollapse"/>
+    <logo v-if="showLogo" :collapse="isCollapse" />
     <el-scrollbar wrap-class="scrollbar-wrapper">
       <el-menu
         :default-active="activeMenu"
@@ -14,7 +14,7 @@
         mode="vertical"
       >
         <div v-for="route in permission_routes" :key="route.path" @click="selectMenu(route)">
-          <sidebar-item :item="route" :base-path="route.path" :class="{'menu_sidebar':isClick(route)}"/>
+          <sidebar-item :item="route" :base-path="route.path" :class="{'menu_sidebar':isClick(route)}" />
         </div>
       </el-menu>
     </el-scrollbar>
@@ -25,7 +25,7 @@
 import { mapGetters } from 'vuex'
 import Logo from './Logo'
 import SidebarItem from './SidebarItem'
-import variables from '@/styles/variables.scss'
+import variables from '@/assets/styles/variables.scss'
 
 export default {
   components: { SidebarItem, Logo },

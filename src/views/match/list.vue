@@ -78,7 +78,7 @@
           fixed="right"
         >
           <template slot-scope="{row}">
-            <el-button size="mini" icon="el-icon-view" type="primary" @click.stop="handleDetail(row)">
+            <el-button size="mini" icon="el-icon-view" type="primary" class="btn-primary" @click.stop="handleDetail(row)">
               {{ $t('common.detail') }}
             </el-button>
           </template>

@@ -1,21 +1,25 @@
 <template>
   <div v-if="!item.hidden">
     <template
-      v-if="hasOneShowingChild(item.children,item) && (!onlyOneChild.children||onlyOneChild.noShowingChildren)&&!item.alwaysShow">
+      v-if="hasOneShowingChild(item.children,item) && (!onlyOneChild.children||onlyOneChild.noShowingChildren)&&!item.alwaysShow"
+    >
       <app-link v-if="onlyOneChild.meta" :to="resolvePath(onlyOneChild.path)">
         <el-menu-item
           v-if="onlyOneChild.meta.badge"
           :index="resolvePath(onlyOneChild.path)"
-          :class="{'submenu-title-noDropdown':!isNest}">
+          :class="{'submenu-title-noDropdown':!isNest}"
+        >
           <item
             :icon="onlyOneChild.meta.icon||(item.meta&&item.meta.icon)"
             :title="generateTitle(onlyOneChild.meta.title)"
-            :badge="$store.state[onlyOneChild.meta.stateBadge[0]][onlyOneChild.meta.stateBadge[1]]"/>
+            :badge="$store.state[onlyOneChild.meta.stateBadge[0]][onlyOneChild.meta.stateBadge[1]]"
+          />
         </el-menu-item>
         <el-menu-item v-else :index="resolvePath(onlyOneChild.path)" :class="{'submenu-title-noDropdown':!isNest}">
           <item
             :icon="onlyOneChild.meta.icon||(item.meta&&item.meta.icon)"
-            :title="generateTitle(onlyOneChild.meta.title)"/>
+            :title="generateTitle(onlyOneChild.meta.title)"
+          />
         </el-menu-item>
       </app-link>
     </template>
@@ -26,7 +30,8 @@
           v-if="item.meta"
           style="font-weight: 600"
           :icon="item.meta && item.meta.icon"
-          :title="generateTitle(item.meta.title)"/>
+          :title="generateTitle(item.meta.title)"
+        />
       </template>
       <sidebar-item
         v-for="child in item.children"
@@ -41,7 +46,7 @@
 </template>
 
 <script>
-import path from 'path'
+import path from 'path-browserify'
 import { generateTitle } from '@/utils/i18n'
 import { isExternal } from '@/utils/validate'
 import Item from './Item'

@@ -15,15 +15,9 @@
       <!--        </div>-->
       <!--      </div>-->
       <div class="block">
-        <div class="info_title">{{ $t('system.filter')}}</div>
-        <el-date-picker
-          style="margin: 15px 0 30px 0;"
-          v-model="date"
-          type="daterange"
-          range-separator="To"
-          start-placeholder="Start date"
-          @blur="handleFilterDate"
-          end-placeholder="End date">
+        <div class="info_title">{{ $t('system.filter') }}</div>
+        <el-date-picker style="margin: 15px 0 30px 0;" v-model="date" type="daterange" range-separator="To"
+          start-placeholder="Start date" @blur="handleFilterDate" end-placeholder="End date">
         </el-date-picker>
       </div>
       <div class="total">
@@ -50,13 +44,15 @@
           <div class=" info_div">
             <div class="">{{ $t('system.sum_transaction') }}</div>
             <div class="value_title">{{ listSetting.direct_commission.sum_transaction }}</div>
-          </div><div class=" info_div">
-          <div class="">{{ $t('system.sum_bnb_transaction') }}</div>
-          <div class="value_title">{{ listSetting.direct_commission.sum_bnb_transaction }}</div>
-        </div><div class=" info_div">
-          <div class="">{{ $t('system.sum_fee_transaction') }}</div>
-          <div class="value_title">{{ listSetting.direct_commission.sum_fee_transaction }}</div>
-        </div>
+          </div>
+          <div class=" info_div">
+            <div class="">{{ $t('system.sum_bnb_transaction') }}</div>
+            <div class="value_title">{{ listSetting.direct_commission.sum_bnb_transaction }}</div>
+          </div>
+          <div class=" info_div">
+            <div class="">{{ $t('system.sum_fee_transaction') }}</div>
+            <div class="value_title">{{ listSetting.direct_commission.sum_fee_transaction }}</div>
+          </div>
         </div>
       </div>
 
@@ -70,13 +66,15 @@
           <div class=" info_div">
             <div class="">{{ $t('system.sum_transaction') }}</div>
             <div class="value_title">{{ listSetting.indirect_commission.sum_transaction }}</div>
-          </div><div class=" info_div">
-          <div class="">{{ $t('system.sum_bnb_transaction') }}</div>
-          <div class="value_title">{{ listSetting.indirect_commission.sum_bnb_transaction }}</div>
-        </div><div class=" info_div">
-          <div class="">{{ $t('system.sum_fee_transaction') }}</div>
-          <div class="value_title">{{ listSetting.indirect_commission.sum_fee_transaction }}</div>
-        </div>
+          </div>
+          <div class=" info_div">
+            <div class="">{{ $t('system.sum_bnb_transaction') }}</div>
+            <div class="value_title">{{ listSetting.indirect_commission.sum_bnb_transaction }}</div>
+          </div>
+          <div class=" info_div">
+            <div class="">{{ $t('system.sum_fee_transaction') }}</div>
+            <div class="value_title">{{ listSetting.indirect_commission.sum_fee_transaction }}</div>
+          </div>
         </div>
       </div>
     </template>
@@ -84,7 +82,7 @@
 </template>
 <script>
 import MainView from '@/components/MainView'
-import {getAllSystemInfo} from '@/api/system'
+import { getAllSystemInfo } from '@/api/system'
 
 export default {
   name: 'IndexVue',
@@ -110,7 +108,7 @@ export default {
         this.listSetting = response.data
         this.date = [
           this.listSetting.filter.start_date,
-          this.listSetting.filter.end_date,
+          this.listSetting.filter.end_date
         ]
         this.listLoading = false
       })
@@ -134,4 +132,5 @@ export default {
 </script>
 
 <style lang="scss">
+
 </style>

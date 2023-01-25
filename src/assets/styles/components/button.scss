@@ -1,0 +1,74 @@
+.btn-common {
+    @apply rounded-m h-size-button-01 text-button transition-all flex items-center py-2 px-3
+     #{!important};
+}
+// primary
+.btn-primary {
+    @apply bg-brand-primary border-brand-primary text-color-light
+    enabled:hover:bg-hover-primary enabled:hover:border-hover-primary
+    disabled:bg-disabled-primary disabled:border-disabled-primary #{!important};
+}
+// secondary
+.btn-secondary {
+    @apply bg-brand-secondary border-brand-secondary text-color-light
+    enabled:hover:bg-hover-secondary enabled:hover:border-hover-secondary
+    disabled:bg-disabled-secondary disabled:border-disabled-secondary #{!important};
+}
+// tertiary
+.btn-tertiary {
+    @apply bg-bg-02 border-brand-primary text-brand-primary
+    enabled:hover:border-hover-primary enabled:hover:text-hover-primary
+    disabled:border-disabled-primary disabled:text-disabled-primary #{!important};
+}
+// danger
+.btn-danger {
+    @apply bg-support-danger border-support-danger text-color-light
+    enabled:hover:bg-hover-danger enabled:hover:border-hover-danger
+    disabled:bg-disabled-danger disabled:border-disabled-danger #{!important};
+}
+// ghost
+.btn-ghost {
+  @apply border-none text-brand-primary bg-transparent
+  enabled:hover:bg-disabled-primary enabled:hover:text-hover-primary
+  disabled:text-disabled-primary disabled:bg-transparent #{!important};
+}
+
+.btn-icon {
+  @apply border-none bg-transparent px-3 py-2 w-[24px] h-[24px]
+  transition-all flex items-center
+  enabled:hover:bg-disabled-primary enabled:hover:rounded-m
+  focus:outline-none
+  visited:outline-none #{!important};
+  .icon-hover {
+    @apply hidden;
+  }
+  :hover {
+    .icon-default {
+      @apply hidden;
+    }
+    .icon-hover{
+      @apply block #{!important};
+    }
+  }
+
+}
+.el-button--small{
+  @apply rounded-m h-size-button-02 text-button transition-all flex items-center py-2 px-4
+  focus:outline-none
+  visited:outline-none #{!important};
+}
+
+.btn-disabled {
+  background-color: #ffc2ab;
+  @apply cursor-not-allowed text-white #{!important};
+}
+
+.btn-common-bg {
+
+}
+
+.invalid {
+  color: red !important;
+  border: 1px solid red !important;
+  outline-color: red;
+}

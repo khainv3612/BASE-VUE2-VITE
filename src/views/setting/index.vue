@@ -89,7 +89,7 @@
               <el-button
                 v-loading.fullscreen.lock="listLoading"
                 :disabled="!isConfirm"
-                class="w-6/12"
+                class="w-6/12 btn-primary"
                 type="primary"
                 @click="updateValue"
               >

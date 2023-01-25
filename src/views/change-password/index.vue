@@ -91,6 +91,7 @@
               <el-button
                 :loading="loading"
                 type="primary"
+                class="btn-primary"
                 @click.native.prevent="handleUpdate"
               >
                 {{ $t('account.save') }}
