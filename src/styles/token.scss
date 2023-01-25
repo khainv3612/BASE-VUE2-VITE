@@ -1,0 +1,43 @@
+.lst_token_div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+  width: 100%;
+  border: 1px solid #dfe6ec;
+
+  .token_div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    //margin-top: -10px;
+
+    .token_info {
+      border: 1px solid #dfe6ec;
+      padding: 10px 0;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      text-overflow: ellipsis;
+      vertical-align: middle;
+      position: relative;
+      text-align: center;
+    }
+
+    .token_name {
+      background-color: $color-bg-token-name;
+      display: flex;
+      justify-content: left;
+      gap: 20px;
+      align-items: center;
+      padding: 10px 50px !important;
+
+      img {
+        max-width: 35px;
+        max-height: 35px;
+      }
+
+      span {
+        max-width: 100%;
+        word-break: break-word;
+      }
+    }
+  }
+}

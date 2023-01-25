@@ -1,0 +1,30 @@
+.form-personnel {
+  .el-step {
+    .el-step__title {
+      font-size: 14px;
+    }
+    .el-step__icon{
+      height: 26px;
+      width: 26px;
+    }
+    .is-wait, .is-process {
+      color: $color-black;
+      font-weight: 700;
+
+      .el-step__icon-inner {
+        color: #CDD1D5;
+      }
+
+      .el-step__icon.is-text {
+        border: 2px solid #CDD1D5;
+      }
+    }
+
+    .el-step__head.is-finish {
+      .el-step__icon.is-text {
+        background: $color-white;
+        color:$color-white;
+      }
+    }
+  }
+}

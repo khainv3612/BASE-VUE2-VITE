@@ -1,0 +1,40 @@
+.table_team {
+  td {
+    padding: 6px 0;
+  }
+}
+
+.update_team_form {
+  .name_update {
+    margin-bottom: 15px;
+  }
+
+  .select_div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+}
+
+.table_match {
+  .el-dialog {
+    width: fit-content;
+
+    .el-dialog__body {
+      padding: 0 0px 30px !important;
+    }
+  }
+}
+
+.title_team, .result_div {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  gap: 20px;
+  align-items: center;
+
+  img {
+    max-width: 35px;
+    max-height: 35px;
+  }
+}

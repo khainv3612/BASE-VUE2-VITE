@@ -1,0 +1,64 @@
+// base color
+$color-green-functional: #0ed346;
+$color-red-primary: #CA0124;
+$color-btn-disabled: #75031a;
+$blue:#324157;
+$light-blue:#3A71A8;
+$red:#C03639;
+$pink: #E65D6E;
+$green: #30B08F;
+$tiffany: #4AB7BD;
+$yellow:#FEC171;
+$panGreen: #30B08F;
+
+$color-white: #fff;
+$color-black: #000;
+$color-orange: #FFC85E;
+$color-dark-orange: #FFC85E;
+$color-orange-1: #FAAD14;
+$color-orange-2: #FF9900;
+$color-orange-3: #FFDE9C;
+$color-red-1: #FF4D4F;
+$color-red-2: #E4282A;
+$color-red-3: #FFB4B4;
+$color-white-1: #00C508;
+$color-white-2: #05CA19;
+$color-white-3: #05CA19;
+$color-blue-primary: #002337;
+$color-blue-1: #1890FF;
+$color-blue-2: #006CCF;
+$color-blue-3: #ABD7FF;
+$color-text-4: #828B92;
+$color-text-5: #CDD1D5;
+$color-red : #FF4A4A;
+$color-btn-hover: #FF9B25;
+$color-text-6: #E8E8F2;
+$color-submenu-hover: #850000;
+
+$color-dark-functional-500: #465773;
+$color-btn: #BE0D0D;
+
+$color-border : #DCDFE6;
+$color-bg-token-name : #F5F7FA;
+$color-border : #DCDFE6;
+
+$menuText:#bfcbd9;
+$menuActiveText:#FFC85E;
+$subMenuActiveText:#f4f4f5;
+
+$menuBg:#002337;
+
+$subMenuBg:#002337;
+
+$sideBarWidth: 250px;
+
+:export {
+  menuText: $color-white;
+  menuActiveText: $color-dark-orange;
+  subMenuActiveText: $color-dark-orange;
+  menuBg: $color-blue-primary;
+  menuHover:$color-dark-orange;
+  subMenuBg: $color-dark-orange;
+  subMenuHover: $color-dark-orange;
+  sideBarWidth: $color-blue-primary;
+}

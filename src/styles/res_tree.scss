@@ -1,0 +1,78 @@
+@media only screen and (max-width: 500px) {
+  .network_component {
+    margin-top: -40px;
+
+    .profit_network_title {
+      font-size: 19px !important;
+    }
+
+    .total_profit {
+      font-size: 16px;
+    }
+  }
+
+  .chart-container {
+    .tree-container > svg, .tree-container .dom-container {
+      width: 100% !important;
+      left: 4000% !important;
+    }
+
+    .el-button {
+      min-width: 80px !important;
+      padding: 8px;
+
+      span {
+
+      }
+    }
+
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .tree-container {
+    overflow: scroll !important;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    height: 800px !important;
+    min-height: 800px !important;
+  }
+
+  .tree-container::-webkit-scrollbar {
+    display: none;
+  }
+
+  .chart-container {
+    .dom-container div div.node-slot:first-child {
+      margin-top: -80px !important;
+    }
+
+    .tree-container > svg, .tree-container .dom-container {
+      width: 99999% !important;
+    }
+
+    .tree-container > svg {
+      height: 999999% !important;
+    }
+
+  }
+
+  .node-slot {
+    display: block !important;
+    width: auto !important;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  //.chart-container {
+  //  .tree-container > svg, .tree-container .dom-container {
+  //    width: 100% !important;
+  //    left: 3000% !important;
+  //  }
+  //
+  //  .el-button {
+  //    min-width: 80px !important;
+  //  }
+  //
+  //}
+}
